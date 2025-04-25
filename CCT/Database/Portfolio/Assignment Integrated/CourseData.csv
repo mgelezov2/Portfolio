@@ -1,0 +1,319 @@
+program_id,program_name,program_capacity,module_id,module_name,module_capacity,location,lecturer_id
+P001,Medicine,264,P001_01,Medicine Module 1,41,CL091,L919
+P001,Medicine,264,P001_02,Medicine Module 2,48,CL020,L269
+P001,Medicine,264,P001_03,Medicine Module 3,50,CL075,L406
+P001,Medicine,264,P001_04,Medicine Module 4,43,CL078,L649
+P001,Medicine,264,P001_05,Medicine Module 5,48,CL062,L962
+P001,Medicine,264,P001_06,Medicine Module 6,34,CL078,L475
+P002,Nursing,276,P002_01,Nursing Module 1,37,CL061,L057
+P002,Nursing,276,P002_02,Nursing Module 2,46,CL032,L961
+P002,Nursing,276,P002_03,Nursing Module 3,40,CL066,L325
+P002,Nursing,276,P002_04,Nursing Module 4,31,CL034,L419
+P002,Nursing,276,P002_05,Nursing Module 5,42,CL100,L237
+P002,Nursing,276,P002_06,Nursing Module 6,47,CL005,L587
+P002,Nursing,276,P002_07,Nursing Module 7,33,CL013,L062
+P003,Pharmacy,261,P003_01,Pharmacy Module 1,32,CL062,L741
+P003,Pharmacy,261,P003_02,Pharmacy Module 2,39,CL032,L065
+P003,Pharmacy,261,P003_03,Pharmacy Module 3,43,CL051,L722
+P003,Pharmacy,261,P003_04,Pharmacy Module 4,44,CL047,L532
+P003,Pharmacy,261,P003_05,Pharmacy Module 5,33,CL060,L883
+P003,Pharmacy,261,P003_06,Pharmacy Module 6,40,CL078,L633
+P003,Pharmacy,261,P003_07,Pharmacy Module 7,30,CL098,L898
+P004,Dentistry,331,P004_01,Dentistry Module 1,43,CL032,L711
+P004,Dentistry,331,P004_02,Dentistry Module 2,39,CL094,L772
+P004,Dentistry,331,P004_03,Dentistry Module 3,44,CL035,L731
+P004,Dentistry,331,P004_04,Dentistry Module 4,43,CL063,L822
+P004,Dentistry,331,P004_05,Dentistry Module 5,34,CL019,L802
+P004,Dentistry,331,P004_06,Dentistry Module 6,43,CL062,L124
+P004,Dentistry,331,P004_07,Dentistry Module 7,35,CL058,L264
+P004,Dentistry,331,P004_08,Dentistry Module 8,50,CL037,L439
+P005,Physical Therapy,191,P005_01,Physical Therapy Module 1,40,CL100,L847
+P005,Physical Therapy,191,P005_02,Physical Therapy Module 2,34,CL077,L737
+P005,Physical Therapy,191,P005_03,Physical Therapy Module 3,37,CL095,L954
+P005,Physical Therapy,191,P005_04,Physical Therapy Module 4,30,CL034,L845
+P005,Physical Therapy,191,P005_05,Physical Therapy Module 5,50,CL019,L424
+P006,Occupational Therapy,196,P006_01,Occupational Therapy Module 1,38,CL034,L517
+P006,Occupational Therapy,196,P006_02,Occupational Therapy Module 2,39,CL010,L355
+P006,Occupational Therapy,196,P006_03,Occupational Therapy Module 3,33,CL036,L115
+P006,Occupational Therapy,196,P006_04,Occupational Therapy Module 4,47,CL074,L546
+P006,Occupational Therapy,196,P006_05,Occupational Therapy Module 5,39,CL002,L515
+P007,Biomedical Science,217,P007_01,Biomedical Science Module 1,44,CL018,L301
+P007,Biomedical Science,217,P007_02,Biomedical Science Module 2,49,CL075,L042
+P007,Biomedical Science,217,P007_03,Biomedical Science Module 3,44,CL049,L565
+P007,Biomedical Science,217,P007_04,Biomedical Science Module 4,44,CL005,L262
+P007,Biomedical Science,217,P007_05,Biomedical Science Module 5,36,CL030,L342
+P008,Radiology,269,P008_01,Radiology Module 1,37,CL043,L293
+P008,Radiology,269,P008_02,Radiology Module 2,49,CL050,L339
+P008,Radiology,269,P008_03,Radiology Module 3,33,CL037,L586
+P008,Radiology,269,P008_04,Radiology Module 4,34,CL086,L988
+P008,Radiology,269,P008_05,Radiology Module 5,38,CL018,L732
+P008,Radiology,269,P008_06,Radiology Module 6,48,CL098,L557
+P008,Radiology,269,P008_07,Radiology Module 7,30,CL060,L565
+P009,Anesthesiology,305,P009_01,Anesthesiology Module 1,48,CL064,L684
+P009,Anesthesiology,305,P009_02,Anesthesiology Module 2,30,CL002,L581
+P009,Anesthesiology,305,P009_03,Anesthesiology Module 3,49,CL068,L949
+P009,Anesthesiology,305,P009_04,Anesthesiology Module 4,41,CL065,L240
+P009,Anesthesiology,305,P009_05,Anesthesiology Module 5,50,CL096,L709
+P009,Anesthesiology,305,P009_06,Anesthesiology Module 6,41,CL034,L917
+P009,Anesthesiology,305,P009_07,Anesthesiology Module 7,46,CL074,L442
+P010,Surgery,330,P010_01,Surgery Module 1,42,CL049,L927
+P010,Surgery,330,P010_02,Surgery Module 2,39,CL027,L561
+P010,Surgery,330,P010_03,Surgery Module 3,46,CL065,L235
+P010,Surgery,330,P010_04,Surgery Module 4,45,CL066,L896
+P010,Surgery,330,P010_05,Surgery Module 5,43,CL032,L712
+P010,Surgery,330,P010_06,Surgery Module 6,47,CL019,L785
+P010,Surgery,330,P010_07,Surgery Module 7,31,CL033,L635
+P010,Surgery,330,P010_08,Surgery Module 8,37,CL087,L755
+P011,Pediatrics,273,P011_01,Pediatrics Module 1,32,CL024,L570
+P011,Pediatrics,273,P011_02,Pediatrics Module 2,40,CL078,L570
+P011,Pediatrics,273,P011_03,Pediatrics Module 3,34,CL089,L155
+P011,Pediatrics,273,P011_04,Pediatrics Module 4,31,CL062,L096
+P011,Pediatrics,273,P011_05,Pediatrics Module 5,44,CL045,L293
+P011,Pediatrics,273,P011_06,Pediatrics Module 6,47,CL018,L733
+P011,Pediatrics,273,P011_07,Pediatrics Module 7,45,CL068,L622
+P012,Neurology,274,P012_01,Neurology Module 1,30,CL091,L509
+P012,Neurology,274,P012_02,Neurology Module 2,35,CL022,L252
+P012,Neurology,274,P012_03,Neurology Module 3,38,CL030,L325
+P012,Neurology,274,P012_04,Neurology Module 4,45,CL070,L297
+P012,Neurology,274,P012_05,Neurology Module 5,48,CL053,L259
+P012,Neurology,274,P012_06,Neurology Module 6,44,CL053,L507
+P012,Neurology,274,P012_07,Neurology Module 7,34,CL081,L828
+P013,Dermatology,188,P013_01,Dermatology Module 1,34,CL060,L113
+P013,Dermatology,188,P013_02,Dermatology Module 2,30,CL033,L180
+P013,Dermatology,188,P013_03,Dermatology Module 3,47,CL013,L666
+P013,Dermatology,188,P013_04,Dermatology Module 4,42,CL076,L485
+P013,Dermatology,188,P013_05,Dermatology Module 5,35,CL018,L164
+P014,Oncology,246,P014_01,Oncology Module 1,35,CL088,L217
+P014,Oncology,246,P014_02,Oncology Module 2,44,CL084,L461
+P014,Oncology,246,P014_03,Oncology Module 3,44,CL016,L671
+P014,Oncology,246,P014_04,Oncology Module 4,34,CL028,L388
+P014,Oncology,246,P014_05,Oncology Module 5,49,CL038,L080
+P014,Oncology,246,P014_06,Oncology Module 6,40,CL080,L560
+P015,Pathology,208,P015_01,Pathology Module 1,39,CL092,L305
+P015,Pathology,208,P015_02,Pathology Module 2,42,CL031,L658
+P015,Pathology,208,P015_03,Pathology Module 3,43,CL089,L601
+P015,Pathology,208,P015_04,Pathology Module 4,39,CL052,L134
+P015,Pathology,208,P015_05,Pathology Module 5,45,CL096,L196
+P016,Psychiatry,238,P016_01,Psychiatry Module 1,35,CL018,L613
+P016,Psychiatry,238,P016_02,Psychiatry Module 2,50,CL013,L697
+P016,Psychiatry,238,P016_03,Psychiatry Module 3,50,CL085,L423
+P016,Psychiatry,238,P016_04,Psychiatry Module 4,36,CL003,L794
+P016,Psychiatry,238,P016_05,Psychiatry Module 5,36,CL069,L889
+P016,Psychiatry,238,P016_06,Psychiatry Module 6,31,CL026,L154
+P017,Veterinary Medicine,302,P017_01,Veterinary Medicine Module 1,50,CL077,L544
+P017,Veterinary Medicine,302,P017_02,Veterinary Medicine Module 2,45,CL018,L622
+P017,Veterinary Medicine,302,P017_03,Veterinary Medicine Module 3,31,CL020,L447
+P017,Veterinary Medicine,302,P017_04,Veterinary Medicine Module 4,31,CL057,L367
+P017,Veterinary Medicine,302,P017_05,Veterinary Medicine Module 5,47,CL041,L465
+P017,Veterinary Medicine,302,P017_06,Veterinary Medicine Module 6,49,CL077,L506
+P017,Veterinary Medicine,302,P017_07,Veterinary Medicine Module 7,49,CL032,L258
+P018,Veterinary Nursing,234,P018_01,Veterinary Nursing Module 1,49,CL011,L530
+P018,Veterinary Nursing,234,P018_02,Veterinary Nursing Module 2,32,CL004,L795
+P018,Veterinary Nursing,234,P018_03,Veterinary Nursing Module 3,45,CL028,L251
+P018,Veterinary Nursing,234,P018_04,Veterinary Nursing Module 4,40,CL047,L029
+P018,Veterinary Nursing,234,P018_05,Veterinary Nursing Module 5,38,CL040,L888
+P018,Veterinary Nursing,234,P018_06,Veterinary Nursing Module 6,30,CL082,L778
+P019,Animal Science,247,P019_01,Animal Science Module 1,45,CL062,L117
+P019,Animal Science,247,P019_02,Animal Science Module 2,33,CL054,L149
+P019,Animal Science,247,P019_03,Animal Science Module 3,47,CL098,L793
+P019,Animal Science,247,P019_04,Animal Science Module 4,44,CL081,L566
+P019,Animal Science,247,P019_05,Animal Science Module 5,41,CL025,L694
+P019,Animal Science,247,P019_06,Animal Science Module 6,37,CL037,L432
+P020,Zoology,273,P020_01,Zoology Module 1,32,CL007,L481
+P020,Zoology,273,P020_02,Zoology Module 2,33,CL055,L369
+P020,Zoology,273,P020_03,Zoology Module 3,48,CL092,L613
+P020,Zoology,273,P020_04,Zoology Module 4,30,CL030,L451
+P020,Zoology,273,P020_05,Zoology Module 5,50,CL004,L413
+P020,Zoology,273,P020_06,Zoology Module 6,47,CL084,L612
+P020,Zoology,273,P020_07,Zoology Module 7,33,CL067,L451
+P021,Wildlife Biology,328,P021_01,Wildlife Biology Module 1,46,CL097,L447
+P021,Wildlife Biology,328,P021_02,Wildlife Biology Module 2,47,CL019,L834
+P021,Wildlife Biology,328,P021_03,Wildlife Biology Module 3,50,CL093,L049
+P021,Wildlife Biology,328,P021_04,Wildlife Biology Module 4,39,CL072,L147
+P021,Wildlife Biology,328,P021_05,Wildlife Biology Module 5,42,CL048,L963
+P021,Wildlife Biology,328,P021_06,Wildlife Biology Module 6,33,CL023,L937
+P021,Wildlife Biology,328,P021_07,Wildlife Biology Module 7,34,CL029,L144
+P021,Wildlife Biology,328,P021_08,Wildlife Biology Module 8,37,CL043,L602
+P022,Veterinary Pathology,327,P022_01,Veterinary Pathology Module 1,49,CL026,L956
+P022,Veterinary Pathology,327,P022_02,Veterinary Pathology Module 2,46,CL067,L454
+P022,Veterinary Pathology,327,P022_03,Veterinary Pathology Module 3,31,CL017,L822
+P022,Veterinary Pathology,327,P022_04,Veterinary Pathology Module 4,30,CL091,L482
+P022,Veterinary Pathology,327,P022_05,Veterinary Pathology Module 5,36,CL058,L674
+P022,Veterinary Pathology,327,P022_06,Veterinary Pathology Module 6,39,CL071,L564
+P022,Veterinary Pathology,327,P022_07,Veterinary Pathology Module 7,49,CL080,L304
+P022,Veterinary Pathology,327,P022_08,Veterinary Pathology Module 8,47,CL009,L616
+P023,Veterinary Surgery,198,P023_01,Veterinary Surgery Module 1,46,CL098,L842
+P023,Veterinary Surgery,198,P023_02,Veterinary Surgery Module 2,39,CL042,L756
+P023,Veterinary Surgery,198,P023_03,Veterinary Surgery Module 3,41,CL091,L818
+P023,Veterinary Surgery,198,P023_04,Veterinary Surgery Module 4,31,CL023,L486
+P023,Veterinary Surgery,198,P023_05,Veterinary Surgery Module 5,41,CL075,L518
+P024,Animal Behavior,234,P024_01,Animal Behavior Module 1,50,CL085,L145
+P024,Animal Behavior,234,P024_02,Animal Behavior Module 2,36,CL086,L149
+P024,Animal Behavior,234,P024_03,Animal Behavior Module 3,42,CL058,L005
+P024,Animal Behavior,234,P024_04,Animal Behavior Module 4,33,CL035,L154
+P024,Animal Behavior,234,P024_05,Animal Behavior Module 5,31,CL002,L874
+P024,Animal Behavior,234,P024_06,Animal Behavior Module 6,42,CL055,L935
+P025,Veterinary Pharmacology,203,P025_01,Veterinary Pharmacology Module 1,37,CL040,L764
+P025,Veterinary Pharmacology,203,P025_02,Veterinary Pharmacology Module 2,45,CL097,L257
+P025,Veterinary Pharmacology,203,P025_03,Veterinary Pharmacology Module 3,46,CL061,L086
+P025,Veterinary Pharmacology,203,P025_04,Veterinary Pharmacology Module 4,36,CL053,L581
+P025,Veterinary Pharmacology,203,P025_05,Veterinary Pharmacology Module 5,39,CL019,L026
+P026,Equine Science,315,P026_01,Equine Science Module 1,40,CL015,L946
+P026,Equine Science,315,P026_02,Equine Science Module 2,34,CL026,L950
+P026,Equine Science,315,P026_03,Equine Science Module 3,34,CL020,L471
+P026,Equine Science,315,P026_04,Equine Science Module 4,32,CL082,L533
+P026,Equine Science,315,P026_05,Equine Science Module 5,42,CL030,L530
+P026,Equine Science,315,P026_06,Equine Science Module 6,49,CL059,L360
+P026,Equine Science,315,P026_07,Equine Science Module 7,44,CL063,L564
+P026,Equine Science,315,P026_08,Equine Science Module 8,40,CL075,L031
+P027,Small Animal Medicine,197,P027_01,Small Animal Medicine Module 1,34,CL095,L262
+P027,Small Animal Medicine,197,P027_02,Small Animal Medicine Module 2,32,CL092,L575
+P027,Small Animal Medicine,197,P027_03,Small Animal Medicine Module 3,50,CL062,L449
+P027,Small Animal Medicine,197,P027_04,Small Animal Medicine Module 4,47,CL066,L953
+P027,Small Animal Medicine,197,P027_05,Small Animal Medicine Module 5,34,CL042,L162
+P028,Large Animal Medicine,297,P028_01,Large Animal Medicine Module 1,48,CL008,L145
+P028,Large Animal Medicine,297,P028_02,Large Animal Medicine Module 2,37,CL050,L049
+P028,Large Animal Medicine,297,P028_03,Large Animal Medicine Module 3,42,CL077,L110
+P028,Large Animal Medicine,297,P028_04,Large Animal Medicine Module 4,36,CL050,L675
+P028,Large Animal Medicine,297,P028_05,Large Animal Medicine Module 5,37,CL088,L070
+P028,Large Animal Medicine,297,P028_06,Large Animal Medicine Module 6,50,CL073,L122
+P028,Large Animal Medicine,297,P028_07,Large Animal Medicine Module 7,47,CL036,L709
+P029,Fine Arts,195,P029_01,Fine Arts Module 1,49,CL049,L064
+P029,Fine Arts,195,P029_02,Fine Arts Module 2,42,CL009,L481
+P029,Fine Arts,195,P029_03,Fine Arts Module 3,30,CL048,L004
+P029,Fine Arts,195,P029_04,Fine Arts Module 4,39,CL002,L976
+P029,Fine Arts,195,P029_05,Fine Arts Module 5,35,CL001,L369
+P030,Graphic Design,246,P030_01,Graphic Design Module 1,44,CL020,L663
+P030,Graphic Design,246,P030_02,Graphic Design Module 2,40,CL072,L647
+P030,Graphic Design,246,P030_03,Graphic Design Module 3,49,CL069,L239
+P030,Graphic Design,246,P030_04,Graphic Design Module 4,41,CL060,L933
+P030,Graphic Design,246,P030_05,Graphic Design Module 5,33,CL029,L188
+P030,Graphic Design,246,P030_06,Graphic Design Module 6,39,CL094,L402
+P031,Illustration,241,P031_01,Illustration Module 1,39,CL037,L272
+P031,Illustration,241,P031_02,Illustration Module 2,47,CL018,L440
+P031,Illustration,241,P031_03,Illustration Module 3,32,CL062,L592
+P031,Illustration,241,P031_04,Illustration Module 4,30,CL075,L937
+P031,Illustration,241,P031_05,Illustration Module 5,48,CL048,L723
+P031,Illustration,241,P031_06,Illustration Module 6,45,CL046,L604
+P032,Photography,217,P032_01,Photography Module 1,41,CL067,L252
+P032,Photography,217,P032_02,Photography Module 2,48,CL035,L486
+P032,Photography,217,P032_03,Photography Module 3,42,CL083,L636
+P032,Photography,217,P032_04,Photography Module 4,39,CL061,L246
+P032,Photography,217,P032_05,Photography Module 5,47,CL069,L452
+P033,Sculpture,311,P033_01,Sculpture Module 1,32,CL073,L568
+P033,Sculpture,311,P033_02,Sculpture Module 2,43,CL028,L093
+P033,Sculpture,311,P033_03,Sculpture Module 3,45,CL094,L956
+P033,Sculpture,311,P033_04,Sculpture Module 4,49,CL005,L283
+P033,Sculpture,311,P033_05,Sculpture Module 5,34,CL018,L980
+P033,Sculpture,311,P033_06,Sculpture Module 6,37,CL045,L277
+P033,Sculpture,311,P033_07,Sculpture Module 7,38,CL080,L054
+P033,Sculpture,311,P033_08,Sculpture Module 8,33,CL068,L184
+P034,Art History,265,P034_01,Art History Module 1,36,CL016,L947
+P034,Art History,265,P034_02,Art History Module 2,42,CL052,L269
+P034,Art History,265,P034_03,Art History Module 3,40,CL047,L676
+P034,Art History,265,P034_04,Art History Module 4,32,CL028,L074
+P034,Art History,265,P034_05,Art History Module 5,34,CL025,L964
+P034,Art History,265,P034_06,Art History Module 6,48,CL006,L976
+P034,Art History,265,P034_07,Art History Module 7,33,CL084,L625
+P035,Ceramics,242,P035_01,Ceramics Module 1,49,CL073,L287
+P035,Ceramics,242,P035_02,Ceramics Module 2,32,CL088,L015
+P035,Ceramics,242,P035_03,Ceramics Module 3,48,CL056,L219
+P035,Ceramics,242,P035_04,Ceramics Module 4,34,CL095,L339
+P035,Ceramics,242,P035_05,Ceramics Module 5,49,CL018,L094
+P035,Ceramics,242,P035_06,Ceramics Module 6,30,CL045,L929
+P036,Painting,218,P036_01,Painting Module 1,39,CL031,L177
+P036,Painting,218,P036_02,Painting Module 2,34,CL008,L324
+P036,Painting,218,P036_03,Painting Module 3,47,CL002,L180
+P036,Painting,218,P036_04,Painting Module 4,30,CL021,L554
+P036,Painting,218,P036_05,Painting Module 5,36,CL025,L137
+P036,Painting,218,P036_06,Painting Module 6,32,CL012,L277
+P037,Printmaking,308,P037_01,Printmaking Module 1,49,CL090,L579
+P037,Printmaking,308,P037_02,Printmaking Module 2,31,CL047,L648
+P037,Printmaking,308,P037_03,Printmaking Module 3,43,CL098,L241
+P037,Printmaking,308,P037_04,Printmaking Module 4,34,CL054,L010
+P037,Printmaking,308,P037_05,Printmaking Module 5,32,CL093,L375
+P037,Printmaking,308,P037_06,Printmaking Module 6,47,CL045,L461
+P037,Printmaking,308,P037_07,Printmaking Module 7,30,CL096,L186
+P037,Printmaking,308,P037_08,Printmaking Module 8,42,CL034,L955
+P038,Digital Arts,200,P038_01,Digital Arts Module 1,45,CL007,L449
+P038,Digital Arts,200,P038_02,Digital Arts Module 2,37,CL013,L988
+P038,Digital Arts,200,P038_03,Digital Arts Module 3,43,CL064,L282
+P038,Digital Arts,200,P038_04,Digital Arts Module 4,32,CL084,L884
+P038,Digital Arts,200,P038_05,Digital Arts Module 5,43,CL049,L643
+P039,Fashion Design,232,P039_01,Fashion Design Module 1,48,CL089,L721
+P039,Fashion Design,232,P039_02,Fashion Design Module 2,30,CL030,L586
+P039,Fashion Design,232,P039_03,Fashion Design Module 3,42,CL014,L612
+P039,Fashion Design,232,P039_04,Fashion Design Module 4,30,CL011,L490
+P039,Fashion Design,232,P039_05,Fashion Design Module 5,47,CL023,L077
+P039,Fashion Design,232,P039_06,Fashion Design Module 6,35,CL052,L629
+P040,Textile Design,254,P040_01,Textile Design Module 1,43,CL058,L812
+P040,Textile Design,254,P040_02,Textile Design Module 2,47,CL083,L042
+P040,Textile Design,254,P040_03,Textile Design Module 3,41,CL062,L503
+P040,Textile Design,254,P040_04,Textile Design Module 4,31,CL100,L293
+P040,Textile Design,254,P040_05,Textile Design Module 5,42,CL024,L258
+P040,Textile Design,254,P040_06,Textile Design Module 6,50,CL054,L552
+P041,Jewelry Design,327,P041_01,Jewelry Design Module 1,34,CL027,L195
+P041,Jewelry Design,327,P041_02,Jewelry Design Module 2,48,CL049,L846
+P041,Jewelry Design,327,P041_03,Jewelry Design Module 3,41,CL018,L372
+P041,Jewelry Design,327,P041_04,Jewelry Design Module 4,38,CL012,L955
+P041,Jewelry Design,327,P041_05,Jewelry Design Module 5,42,CL008,L458
+P041,Jewelry Design,327,P041_06,Jewelry Design Module 6,47,CL098,L749
+P041,Jewelry Design,327,P041_07,Jewelry Design Module 7,39,CL080,L801
+P041,Jewelry Design,327,P041_08,Jewelry Design Module 8,38,CL048,L611
+P042,Animation,203,P042_01,Animation Module 1,32,CL083,L680
+P042,Animation,203,P042_02,Animation Module 2,49,CL070,L180
+P042,Animation,203,P042_03,Animation Module 3,50,CL083,L794
+P042,Animation,203,P042_04,Animation Module 4,42,CL043,L724
+P042,Animation,203,P042_05,Animation Module 5,30,CL011,L136
+P043,Film Production,205,P043_01,Film Production Module 1,40,CL006,L823
+P043,Film Production,205,P043_02,Film Production Module 2,44,CL044,L362
+P043,Film Production,205,P043_03,Film Production Module 3,30,CL052,L007
+P043,Film Production,205,P043_04,Film Production Module 4,48,CL031,L177
+P043,Film Production,205,P043_05,Film Production Module 5,43,CL098,L968
+P044,Theatre Arts,224,P044_01,Theatre Arts Module 1,39,CL020,L177
+P044,Theatre Arts,224,P044_02,Theatre Arts Module 2,39,CL033,L358
+P044,Theatre Arts,224,P044_03,Theatre Arts Module 3,33,CL067,L669
+P044,Theatre Arts,224,P044_04,Theatre Arts Module 4,33,CL084,L080
+P044,Theatre Arts,224,P044_05,Theatre Arts Module 5,30,CL056,L750
+P044,Theatre Arts,224,P044_06,Theatre Arts Module 6,50,CL034,L454
+P045,Medicine,328,P045_01,Medicine Module 1,34,CL072,L506
+P045,Medicine,328,P045_02,Medicine Module 2,49,CL044,L103
+P045,Medicine,328,P045_03,Medicine Module 3,42,CL057,L851
+P045,Medicine,328,P045_04,Medicine Module 4,42,CL037,L173
+P045,Medicine,328,P045_05,Medicine Module 5,46,CL093,L799
+P045,Medicine,328,P045_06,Medicine Module 6,32,CL007,L215
+P045,Medicine,328,P045_07,Medicine Module 7,35,CL075,L938
+P045,Medicine,328,P045_08,Medicine Module 8,48,CL049,L884
+P046,Nursing,238,P046_01,Nursing Module 1,41,CL074,L640
+P046,Nursing,238,P046_02,Nursing Module 2,42,CL042,L522
+P046,Nursing,238,P046_03,Nursing Module 3,41,CL032,L830
+P046,Nursing,238,P046_04,Nursing Module 4,34,CL014,L321
+P046,Nursing,238,P046_05,Nursing Module 5,49,CL068,L409
+P046,Nursing,238,P046_06,Nursing Module 6,31,CL052,L085
+P047,Pharmacy,210,P047_01,Pharmacy Module 1,32,CL099,L848
+P047,Pharmacy,210,P047_02,Pharmacy Module 2,45,CL024,L528
+P047,Pharmacy,210,P047_03,Pharmacy Module 3,34,CL034,L046
+P047,Pharmacy,210,P047_04,Pharmacy Module 4,50,CL052,L431
+P047,Pharmacy,210,P047_05,Pharmacy Module 5,49,CL024,L564
+P048,Dentistry,223,P048_01,Dentistry Module 1,41,CL090,L992
+P048,Dentistry,223,P048_02,Dentistry Module 2,30,CL084,L454
+P048,Dentistry,223,P048_03,Dentistry Module 3,36,CL007,L267
+P048,Dentistry,223,P048_04,Dentistry Module 4,44,CL039,L798
+P048,Dentistry,223,P048_05,Dentistry Module 5,38,CL056,L692
+P048,Dentistry,223,P048_06,Dentistry Module 6,34,CL052,L015
+P049,Physical Therapy,342,P049_01,Physical Therapy Module 1,44,CL081,L042
+P049,Physical Therapy,342,P049_02,Physical Therapy Module 2,40,CL025,L032
+P049,Physical Therapy,342,P049_03,Physical Therapy Module 3,49,CL066,L211
+P049,Physical Therapy,342,P049_04,Physical Therapy Module 4,50,CL037,L460
+P049,Physical Therapy,342,P049_05,Physical Therapy Module 5,41,CL092,L327
+P049,Physical Therapy,342,P049_06,Physical Therapy Module 6,30,CL056,L557
+P049,Physical Therapy,342,P049_07,Physical Therapy Module 7,50,CL068,L131
+P049,Physical Therapy,342,P049_08,Physical Therapy Module 8,38,CL015,L809
+P050,Occupational Therapy,341,P050_01,Occupational Therapy Module 1,44,CL032,L561
+P050,Occupational Therapy,341,P050_02,Occupational Therapy Module 2,44,CL049,L679
+P050,Occupational Therapy,341,P050_03,Occupational Therapy Module 3,46,CL089,L070
+P050,Occupational Therapy,341,P050_04,Occupational Therapy Module 4,39,CL047,L299
+P050,Occupational Therapy,341,P050_05,Occupational Therapy Module 5,38,CL076,L300
+P050,Occupational Therapy,341,P050_06,Occupational Therapy Module 6,44,CL070,L824
+P050,Occupational Therapy,341,P050_07,Occupational Therapy Module 7,50,CL075,L206
+P050,Occupational Therapy,341,P050_08,Occupational Therapy Module 8,36,CL093,L135
