@@ -1,0 +1,74 @@
+create database IF NOT EXISTS College_Database;
+use College_Database;
+
+create table Courses(
+programID varchar(255),
+programName varchar(500),
+programPopulation int(255),
+moduleID varchar(500) not null primary key,
+moduleName varchar(500),
+modulePopulation int(255),
+roomLocation varchar(500),
+lecturerID varchar(500)
+);
+
+
+create table Students(
+studentName varchar(100),
+studentID varchar(100) not null primary key
+);
+
+
+create table Lecturers(
+lecturerID varchar(255) not null primary key,
+lecturerName varchar(500),
+lecturerRole varchar(500)
+);
+
+
+create table Enrollments(
+studentID varchar(255),
+programID varchar(255),
+moduleID varchar(255),
+enrollmentDate date
+#foreign key (programID) references Courses(programID),
+#foreign key (moduleID) references Courses(moduleID)
+);
+
+
+CREATE TABLE Grades(
+studentID varchar(255),
+moduleID varchar(255),
+passed_module_ID varchar(255),
+grades_pass int(100),
+failed_module_id varchar(255),
+grades_fail int(100)
+#foreign key (studentID) references Students(studentID),
+#foreign key (moduleID) references Courses(moduleID)
+);
+
+
+create table Feedback(
+studentID varchar(255),
+feedback varchar(500)
+#foreign key (studentID) references Students(studentID)
+);
+
+create table College_Database.users (
+	colUser_id varchar(5) NOT NULL,
+	colUser_full_name varchar(20) NOT NULL,
+	colUser_role varchar(30) NOT NULL,
+	colUser_login_name varchar(30) NOT NULL,
+	colUser_password varchar(16) NOT NULL
+);
+
+
+
+
+insert into users(colUser_id,colUser_full_name,colUser_role,colUser_login_name,colUser_password)values('U003','','lecturer','','');
+insert into users(colUser_id,colUser_full_name,colUser_role,colUser_login_name,colUser_password)values('U002','','admin','','');
+insert into users(colUser_id,colUser_full_name,colUser_role,colUser_login_name,colUser_password)values('U001','','office','','');
+
+update users set colUser_full_name = 'Steven Steward', colUser_role = 'admin',colUser_login_name='admin' ,colUser_password = 'java' where colUser_id = 'U001';
+update users set colUser_full_name = 'Kyle Barley', colUser_role = 'lecturer',colUser_login_name='lecturer' ,colUser_password = 'java' where colUser_id = 'U002';
+update users set colUser_full_name = 'Lee Ryle', colUser_role = 'office',colUser_login_name='office' ,colUser_password = 'java' where colUser_id = 'U003';
