@@ -14,13 +14,7 @@ import static javax.lang.model.type.TypeKind.NULL;
  *
  * @author michael
  */
-//REPOSITORY LINK: --------> https://github.com/mgelezov2/CCT.git <---------
-//                                                                \
-//                                                                 \ O                                                                 
-//                                                                   |\
-//                                                                   | \
-//                                                                  / \
-//                                                                 /   \
+
 public class JavaMySQLConnection_CA3_OOA {
     
 
