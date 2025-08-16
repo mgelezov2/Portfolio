@@ -1,0 +1,30 @@
+import { test, expect, chromium } from '@playwright/test';
+
+test('test', async ({ page }) => {
+  const browser = await chromium.launch();
+  const context = await browser.newContext({ ignoreHTTPSErrors: true });
+  await page.goto('https://letcode.in/forms');
+  await page.locator('#firstname').click();
+  await page.locator('#firstname').fill('lorem');
+  await page.locator('#lasttname').click();
+  await page.locator('#lasttname').fill('ipsum');
+  await page.getByRole('textbox', { name: 'Email input' }).click();
+  await page.getByRole('textbox', { name: 'Email input' }).fill('hello@gmail.com');
+  await page.locator('form div').filter({ hasText: 'EmailCountry codeUSA (+1)UK' }).getByRole('combobox').selectOption('880');
+  await page.getByRole('textbox', { name: 'Phone Number' }).click();
+  await page.getByRole('textbox', { name: 'Phone Number' }).fill('4645734347');
+  await page.getByRole('textbox', { name: 'Address Line-1' }).click();
+  await page.getByRole('textbox', { name: 'Address Line-1' }).fill('8275578 lorem ipsum');
+  await page.getByRole('textbox', { name: 'Address Line-2' }).click();
+  await page.getByRole('textbox', { name: 'Address Line-2' }).fill('4487 lorem ipsum');
+  await page.getByRole('textbox', { name: 'State' }).click();
+  await page.getByRole('textbox', { name: 'State' }).press('CapsLock');
+  await page.getByRole('textbox', { name: 'State' }).press('CapsLock');
+  await page.getByRole('textbox', { name: 'State' }).fill('Dakota');
+  await page.getByRole('textbox', { name: 'Postal-Code' }).click();
+  await page.getByRole('textbox', { name: 'Postal-Code' }).fill('545455 lorem ipsum');
+  await page.locator('form div').filter({ hasText: 'Postal-CodeCountryAfghanistan' }).getByRole('combobox').selectOption('Antarctica');
+  await page.locator('#Date').fill('2222-02-22');
+  await page.getByText('Male', { exact: true }).click();
+  await page.getByRole('button', { name: 'Submit' }).click();
+});
